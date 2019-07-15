@@ -7,3 +7,6 @@ var playlist = {
 function updatePlaylist(obj, key, value){
   return playlist.rihanna = "Diamonds";
 }
+function removePlaylist(playlistObj, value){
+  return delete playlist.rihanna = "Diamonds";
+}
